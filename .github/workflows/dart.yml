@@ -2,9 +2,9 @@ name: Dart
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, develop ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, develop ]
 
 jobs:
   build:
@@ -20,11 +20,14 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Install Flutter 
+        uses: subosito/flutter-action@v1.3.2
+        
+      - name: Install dependencies
+        run: flutter pub get
+
       - name: Print Dart SDK version
         run: dart --version
-
-      - name: Install dependencies
-        run: dart pub get
 
       # Uncomment this step to verify the use of 'dart format' on each commit.
       # - name: Verify formatting
