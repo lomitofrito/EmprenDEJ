@@ -1,4 +1,4 @@
-# emprendej
+# EmprenDEJ
 
 A new Flutter project.
 
