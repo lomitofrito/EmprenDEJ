@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "632062072886",
+    "firebase_url": "https://emprendej-1dda8.firebaseio.com",
+    "project_id": "emprendej-1dda8",
+    "storage_bucket": "emprendej-1dda8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632062072886:android:79843737bf0c77a0246097",
+        "android_client_info": {
+          "package_name": "com.example.emprendej"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632062072886-gslfvf8j1eqerus7mck2vhjpd8drnnbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm1pAUKOUe_LwthatNPaDVghitsRXW66w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632062072886-gslfvf8j1eqerus7mck2vhjpd8drnnbe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
